@@ -2,7 +2,6 @@ import secrets
 import sys
 
 def main(nom_fichier):
-    # J'ajoute encoding="utf-8" car un dictionnaire français contient des accents !
     with open(nom_fichier, "r", encoding="utf-8") as file :
         tab = file.readlines()
 
