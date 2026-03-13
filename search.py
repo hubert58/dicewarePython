@@ -4,7 +4,6 @@ import sys
 def main(nom_fichier):
     with open(nom_fichier, "r", encoding="utf-8") as file :
         tab = file.readlines()
-
     n = secrets.randbelow(len(tab))
     return tab[n].strip()
 
